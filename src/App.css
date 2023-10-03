@@ -1,0 +1,881 @@
+
+body, html{
+  background-color: rgb(128, 134, 12);
+  height: auto + 100px;
+  padding: 10px;
+}
+
+@media (min-width: 320px){
+  /* orders */
+.fast-food-img-order{
+  background-color: #222;
+  width: 100vw;
+}
+
+.order-btn {
+  width: 100px;
+  padding: 2.5px;
+  height: 50px;
+  color: white;
+  background-color: #222;
+  border-radius: 0px;
+}
+#view-order-btn {
+  position: fixed;
+  left: 30%;
+  top: 0%;
+}
+
+#total-order-btn {
+  position: fixed;
+  left: 5%;
+  top: 0%;
+}
+
+/* card food */
+
+
+.img-food {
+  background-color: transparent;
+  border-radius: 1px 1px 4px black;
+  box-sizing: white solid 3px;
+  width:120px;
+  height: 120px;
+  margin-left: 10%;
+}
+
+.card-food {
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+  height: 180px;
+  border-radius: 20px;
+  background-color: #111;
+  color: white;
+  font-family: "Mystery Quest";
+  margin-left: calc(50% - 150px);
+  margin-top: 35px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+.card-food-ice{
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+  height: 180px;
+  border-radius: 20px;
+  background-color: #111;
+  color: white;
+  font-family: "Mystery Quest";
+  margin-left: calc(50% - 150px);
+  margin-top: 35px;
+  padding: 30px;
+}
+
+
+.btn-details {
+  background-color: #111;
+  color: white;
+  border-radius: 20px;
+  padding: 2.5px;
+  width: 80px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+
+
+/* barra de navegacion */
+.BarNav-container{
+  width: 100vw;
+  background-color: #111;
+  color: white;
+border-radius: 10px;
+position: fixed;
+left: 5%;
+top: 8.5%;
+}
+
+.menuBarNav {
+  margin-left: 5px;
+  margin-top: 10px;
+  padding: 5px;
+}
+/* total order container */
+.total-order-container {
+  width: 200px;
+  height: auto;
+  box-shadow: 1px 1px 3px black;
+  background-color: whitesmoke;
+  border: black solid 5px;
+  left: 0%;
+  z-index: 20;
+
+}
+.window-order-colombian-food {
+  
+  box-shadow: 1px 1px 3px black;
+  background-color: whitesmoke;
+  border: black solid 5px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 150px;
+  height: 300px;
+  left: 5%;
+  top: 2%;
+  z-index: 21;
+}
+
+
+.btn-order-little-sections{
+  width: 80px;
+  height: 30px;
+  margin-left: 25%;
+  margin-top: 5%;
+  border-radius: 20px;
+  background-color: #222;
+  color: white;
+}
+
+.card-fastfood-container{
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* fast food details */
+
+.btn-visibility {
+  width: 100.5vw;
+  height: 80px;
+  position: absolute;
+  margin-left: 2.5%;
+  left: 3%;
+  top: 40%;
+  background-color: #111;
+  color: white;
+}
+
+.btn-order {
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 5%;
+  background-color: #111;
+  color: white;
+}
+
+.close-btn-window-extra{
+  background-color: brown;
+}
+
+}
+
+@media (min-width: 480px){
+  h1{
+    
+  }
+
+  .title-type-menu{
+    margin-left: 42.5%;
+  }
+  
+#title-dessert{
+  left: 30%;
+  top: 200px;
+  z-index: 1;
+  color: white;
+}
+
+#drinks-title{
+margin-left: 45%;
+top: 200px;
+z-index: 1;
+color: white;
+}
+
+#colombianFood-title{
+
+margin-left: 25%;
+top: 200px;
+z-index: 1;
+width: 400px;
+color: white;
+}
+
+#fast-food-title{
+ 
+  margin-left: 10%;
+  text-align: center;
+top: 200px;
+  z-index: 1;
+  color: white;
+}
+
+
+/* order */
+
+#view-order-btn {
+  position: fixed;
+  left: 25%;
+  top: 0%;
+}
+.btn-order-little-sections {
+  width: 120px;
+  height: 30px;
+  margin-left: 0%;
+  margin-top: 5%;
+  border-radius: 20px;
+  background-color: #222;
+  color: white;
+}
+
+.btn-details {
+  background-color: #111;
+  color: white;
+  border-radius: 20px;
+  padding: 2.5px;
+  width: 120px;
+  height: 30px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.btn-order {
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  margin-left: 5%;
+  background-color: #222;
+  color: white;
+}
+
+}
+
+@media (min-width: 640px){
+ /* order */
+ 
+  #view-order-btn {
+    position: fixed;
+    left: 17.5%;
+    top: 2.5%;
+}
+#total-order-btn {
+  position: fixed;
+  left: 2.8%;
+  top: 2.5%;
+}
+.order-btn {
+  width: 100px;
+  padding: 2.5px;
+  height: 40px;
+  color: white;
+  background-color: #222;
+  border-radius: 0px;
+}
+
+.btn-visibility {
+  
+    width: 100vw;
+    height: 80px;
+    position: absolute;
+    margin-left: 2.5%;
+    left: 0%;
+    top: 40%;
+    background-color: #111;
+    color: white;
+
+}
+
+.BarNav-container {
+  width: 100vw;
+  background-color: #111;
+  color: white;
+  border-radius: 10px;
+  position: fixed;
+  left: 3%;
+  top: 8.5%;
+}
+
+.btn-visibility {
+  width: 100.5vw;
+  height: 80px;
+  position: absolute;
+  margin-left: 2.5%;
+  left: 0%;
+  top: 70%;
+  background-color: #111;
+  color: white;
+}
+
+/* titles */
+
+
+#title-dessert{
+  left: 30%;
+  top: 200px;
+  z-index: 1;
+  color: white;
+}
+
+#drinks-title{
+margin-left: 45%;
+top: 200px;
+z-index: 1;
+color: white;
+}
+
+#colombianFood-title{
+
+margin-left: 30%;
+top: 200px;
+z-index: 1;
+width: 400px;
+color: white;
+}
+
+#fast-food-title{
+ 
+  margin-left: 9%;
+  text-align: center;
+top: 200px;
+  z-index: 1;
+  color: white;
+}
+
+
+}
+
+@media (min-width: 720px){
+  #view-order-btn {
+    position: fixed;
+    left: 15.5%;
+    top: 2.5%;
+}
+}
+
+@media(min-width: 1280px){
+.App{
+  padding: 10px;
+  background-color: #111;
+  width: 100vw;
+}
+
+@media (min-width: 1400px){
+  
+}
+body, html{
+  background-color: rgb(128, 134, 12);
+}
+
+.menuBarNav{
+  margin-left: 25px;
+  margin-top: 10px;
+
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  padding: 2.5px;
+}
+.BarNav-container{
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  position: absolute;
+  left: 20px;
+  top: 62.5px;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 20;
+  box-shadow: 1px 1px 3px black;
+  
+  border: black solid 5px;  
+}
+
+
+
+/* foods cards */
+.card-food{
+  display: flex;
+  flex-direction: row;
+  width: 380px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: #111;
+  color: white;
+  font-family: "Mystery Quest";
+
+  margin-left: calc(50% - 150px);
+  margin-top: 35px;
+  padding: 20px;
+}
+
+.card-food:hover{
+  background-color: transparent;
+}
+
+.food-container{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-left: 10px;
+}
+
+
+.img-food{
+  background-color: transparent;
+  border-radius: 1px 1px 4px black;
+  box-sizing: white solid 3px;
+  width: 120px;
+  height: 120px;
+  margin-left: 45%;
+}
+h1{
+  padding: 2.5px;
+  width: 120px;
+  font-size: 40px;
+
+}
+
+/* fast food */
+
+.btn-and-food{
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-order{
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+margin-left: 50%;
+background-color: #111;
+color: white;
+
+}
+.btn-order:hover{
+  background-color: #222;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.btn-container{
+  padding: 10px;
+  margin-left: 25%;
+}
+
+.cards-fast-food{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas de igual tamaño */
+    grid-gap: 20px; /* Espacio entre las celdas de la grilla */
+    margin-top: 20px;
+  
+}
+
+h3{
+  color: white;
+}
+
+h2{
+  width: 150px;
+  margin-left: 30px;
+}
+
+.card-fastfood-container{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#hamburguesa-container{
+  margin-left: 80px;
+}
+
+
+/* Ice Cream */
+.card-food-ice{
+  display: flex;
+  flex-direction: row;
+  width: 380px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: #111;
+  color: white;
+  margin-left: 60px;
+  margin-top: 300px;
+  padding: 20px;
+}
+.card-food-ice:hover{
+  background-color: transparent;
+}
+
+.container-desserts{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.desserts{
+display: flex;
+flex-direction: row;
+}
+
+/* window aditional */
+
+.btn-details{
+  background-color: #111;
+  color: white;
+  border-radius: 20px;
+  padding: 2.5px;
+width: 80px;
+}
+
+.btn-details:hover{
+cursor: pointer;
+}
+
+
+.windowAditionalContainer{
+position: absolute;
+width: 350px;
+border-radius: 20px;
+height: auto;
+justify-content: center;
+padding: 10px;
+background-color: #111;
+color: white;
+font-family: "Mystery Quest";
+position: absolute;
+}
+
+.food-details-container{
+  position: relative;
+  
+
+}
+.icecreamdetailscontainer{
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+#helado-container{
+  left:-580px;
+  margin-left: 200px;
+  z-index: 10;
+}
+
+#tiramisu-container{
+  left: 320px;
+  margin-left: 200px;
+  z-index: 10;
+}
+
+#brownie-container{
+
+  left: -130px;
+  margin-left: 200px;
+  z-index: 10;
+}
+
+/* window drinks container */
+#batido-container{
+top: 400px;
+}
+
+#soda-container{
+top: 400px;
+}
+
+#natural-juice-container{
+top: 400px;
+}
+
+
+/* window colombian food container */
+
+#carimañola-container{
+top: 400px;
+
+}
+
+#arepa-de-huevo-container{
+top: 400px;
+}
+
+#aborrajao-container{
+top: 400px;
+
+}
+
+/* big window details -- fast food */
+
+#fast-food-details{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto 800px;
+  width: 800px; /* Ancho de la grilla */
+   height: 800px;
+   z-index: 10;
+   position: fixed;
+   left: 20%;
+  top: 12%;
+}
+
+.card-food-fast-food{
+  width: 300px; /* Ancho de cada elemento en la grilla */
+  height: 300px; /* Altura de cada elemento en la grilla */
+  background-color: #222;
+  gap: 5px; /* Espacio entre elementos */
+  color: white;
+  padding: 10px;
+  border: #111 solid 3px;
+}
+
+.btn-visibility{
+  width: 400px;
+  height: 80px;
+  position: absolute;
+  left: 40%;
+  top: 10%;
+  background-color: #111;
+  color: white;
+}
+
+.btn-visibility:hover{
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+}
+
+#order{
+  width: 300px;
+}
+
+.extra-window-container{
+  
+  background-color: #111;
+}
+
+
+
+/* titles */
+
+#title-dessert{
+  position: absolute;
+  left: 700px;
+  top: 200px;
+  z-index: 1;
+  color: white;
+}
+
+#drinks-title{
+position: absolute;
+left: 700px;
+top: 200px;
+z-index: 1;
+color: white;
+}
+
+#colombianFood-title{
+  position: absolute;
+left: 700px;
+top: 200px;
+z-index: 1;
+width: 400px;
+color: white;
+}
+
+#fast-food-title{
+  position: absolute;
+  left: 775px;
+  text-align: center;
+top: 200px;
+  z-index: 1;
+  color: white;
+}
+
+#fast-food-title-container{
+  /* position: relative; */
+  z-index: 1;
+}
+
+/* containers order titles littles section */
+
+
+.container-tiramisu-title{
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-order-little-sections{
+  width: 80px;
+  height: 30px;
+  margin-left: 25%;
+  margin-top: 5%;
+  border-radius: 20px;
+  background-color: #222;
+  color: white;
+}
+
+.btn-order-little-sections:hover{
+  background-color: #111;
+  color: white;
+
+}
+
+.close-btn-window-extra{
+  position: absolute;
+  z-index: 15;
+  top: 12%;
+  left: 82.5%;
+   background-color: brown;
+   color: white;
+}
+.close-btn-window-extra:hover{
+  cursor: pointer;
+}
+
+/* visualized of order */
+
+.total-order-container{
+  width: 500px;
+  margin-left: calc(50% - 250px);
+  height: 250px;
+}
+
+.total-order-container{
+  width: 400px;
+  height: auto;
+  box-shadow: 1px 1px 3px black;
+  background-color: whitesmoke;
+  border: black solid 5px;  
+  left: 40%;
+  z-index: 20;
+  position: fixed;
+}
+
+
+.order-card{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  position: fixed;
+  left: 85%;
+  top: 2%;
+  box-shadow: 1px 1px 3px black;
+  background-color: whitesmoke;
+  border: black solid 5px;
+  z-index: 21;
+}
+.fast-food-img-order{
+  width: 50vw;
+  height: 200px;
+  margin-left: 27.5%;
+  border-radius: 20px;
+  margin-top: 10%;
+}
+.container-food-totalOrder{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+/* total order colombian food */
+
+.window-order-colombian-food{
+  position: fixed;
+  box-shadow: 1px 1px 3px black;
+  background-color: whitesmoke;
+  border: black solid 5px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 200px;
+  height: 300px;
+  left: 85%;
+  top: 2%;
+  z-index: 21;
+}
+
+.order-btn{
+  width: 100px;
+  padding: 2.5px;
+  height: 50px;
+  color: white;
+  background-color: #222;
+  border-radius: 0px;
+}
+
+#total-order-btn{
+  position: fixed;
+  left: 2%;
+  top: 0%;
+}
+#view-order-btn{
+position: fixed;
+left: 9%;
+top: 0%;
+}
+}
+
+@media(min-width: 1400px){
+
+  #title-dessert{
+    position: absolute;
+    left: 7%;
+    top: 200px;
+    z-index: 1;
+    color: white;
+  }
+  
+  #drinks-title{
+
+    position: absolute;
+    left: 7%;
+  top: 200px;
+  z-index: 1;
+  color: white;
+  }
+  
+  #colombianFood-title{
+  
+    position: absolute;
+    left: 12.5%;
+  top: 200px;
+  z-index: 1;
+  width: 400px;
+  color: white;
+  }
+  
+  #fast-food-title{
+   
+    position: absolute;
+    left: 40%;
+    text-align: center;
+  top: 200px;
+    z-index: 1;
+    color: white;
+  }
+
+  #view-order-btn {
+    position: fixed;
+    left: 8.5%;
+    top: 0%;
+}
+
+}
+
+/* containers */
+
+.container-desserts{
+  padding: 20px;
+}
+
+
+
